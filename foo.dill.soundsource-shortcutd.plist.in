@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>foo.dill.soundsource-shortcutd</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>@CMAKE_INSTALL_PREFIX@/bin/soundsource-shortcutd</string>
+        <string>--name</string>
+        <string>@SOUNDSOURCE_SHORTCUT_NAME@</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+</dict>
+</plist>
